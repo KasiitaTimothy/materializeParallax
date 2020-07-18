@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <style>
+    .parallax-container {
+      height: 400px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="brown">
+    <div class="container">
+      <a href="#" class="brand-logo">Uganda WildLife</a>
+    </div>
+  </nav>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="owl.jpg" alt="owl" class="responsive-img">
+    </div>
+  </div>
+
+  <div class="section brown">
+    <div class="container center">
+      <h1 class="white-text">Queen Elizabeth NP</h1>
+      <p class="center white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt beatae deleniti
+        dolore sed ex
+        voluptatum excepturi vero, voluptatem facilis inventore consequatur, magnam tempora. Quae excepturi aspernatur
+        temporibus fugit itaque atque hic, numquam ratione ipsam quidem eaque, magni accusantium deserunt
+        exercitationem! Cum iure neque dolores facilis voluptates illum corporis iste totam!</p>
+
+      <p class="center white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt beatae deleniti
+        dolore sed ex
+        voluptatum excepturi vero, voluptatem facilis inventore consequatur, magnam tempora. Quae excepturi aspernatur
+        temporibus fugit itaque atque hic, numquam ratione ipsam quidem eaque, magni accusantium deserunt
+        exercitationem! Cum iure neque dolores facilis voluptates illum corporis iste totam!</p>
+
+      <button class="btn yellow">Visit</button>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="lion.jpg" alt="lion" class="responsive-img">
+    </div>
+  </div>
+
+  <div class="section brown">
+    <div class="container center">
+      <h1 class="white-text">Kidepo NP</h1>
+      <p class="center white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt beatae deleniti
+        dolore sed ex
+        voluptatum excepturi vero, voluptatem facilis inventore consequatur, magnam tempora. Quae excepturi aspernatur
+        temporibus fugit itaque atque hic, numquam ratione ipsam quidem eaque, magni accusantium deserunt
+        exercitationem! Cum iure neque dolores facilis voluptates illum corporis iste totam!</p>
+
+      <p class="center white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt beatae deleniti
+        dolore sed ex
+        voluptatum excepturi vero, voluptatem facilis inventore consequatur, magnam tempora. Quae excepturi aspernatur
+        temporibus fugit itaque atque hic, numquam ratione ipsam quidem eaque, magni accusantium deserunt
+        exercitationem! Cum iure neque dolores facilis voluptates illum corporis iste totam!</p>
+
+      <button class="btn yellow">Visit</button>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="zebra.jpg" alt="zebra" class="responsive-img">
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const parallaxEffect = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallaxEffect, {});
+    })
+  </script>
+</body>
+
+</html>
